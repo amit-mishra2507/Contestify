@@ -26,7 +26,7 @@ const Navbar = () => {
         </li>
       </HStack>
       <Flex gap={"1em"}>
-        <a href="link" target="blank">
+        <a href="https://github.com/AM-2507/Contestify" target="blank">
           <img src={github} alt="Github" className="github-logo" />
         </a>
       </Flex>
