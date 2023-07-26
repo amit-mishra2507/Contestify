@@ -1,0 +1,166 @@
+@import url("https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Arimo", sans-serif;
+  height: 100%;
+  display: table;
+  margin: auto;
+}
+
+body {
+  background-color: black;
+  padding: 1em 5em 0 5em;
+  height: 100%;
+  display: table-cell;
+  vertical-align: middle;
+  min-width: 84em;
+  
+}
+
+.nav-flex {
+  margin-bottom: 2.5em;
+}
+
+.logo-img {
+  width: 10em;
+}
+
+.nav-list {
+  list-style-type: none;
+  font-weight: 600;
+}
+
+.github-logo {
+  width: 2em;
+}
+
+.filter-by-text {
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+
+.h4 {
+  font-weight: 600;
+  color: #999999;
+  margin-bottom: 0.5rem;
+}
+
+.check-box {
+  padding-left: 2em;
+}
+
+.goto-site {
+  width: 100%;
+  border: 1px black solid;
+  text-align: center;
+  background-color: orange;
+  color: white;
+  padding: 0.5em 0;
+  border-radius: 0.5rem;
+  font-weight: 600;
+  font-size: 1.5rem;
+  transition: 250ms ease-in-out;
+}
+.goto-site:hover {
+  background-color: rgb(138, 94, 13);
+}
+
+.h3 {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.card-body {
+  font-weight: 600;
+  color: #999999;
+}
+
+.p {
+  color: black;
+  font-weight: 400;
+}
+
+.footer-section {
+  margin-top: 5em;
+  text-align: left;
+  padding: 0.5rem;
+  background-color: rgba(55, 170, 17, 0.943);
+  color: white;
+  font-size: 1rem;
+}
+
+span {
+  color: #084910;
+  text-decoration: underline;
+}
+
+header {
+  height: 63.5vh;
+  padding-top: 2em;
+}
+
+.man {
+  width: 25%;
+  margin-right: 4rem;
+}
+
+.container {
+  font-weight: 700;
+  font-size: 3.5rem;
+}
+
+.content {
+  inline-size: 500px;
+  word-wrap: break-word;
+}
+
+.search {
+  background: linear-gradient(90deg, #0ec03894 0%, #1c5f04 100%);
+  box-shadow: 0px 0px 20px 5px rgba(41, 242, 6, 0.75);
+  border-radius: 100px;
+  color: white;
+  font-weight: 600;
+  padding: 1em 2em;
+  transition: 250ms ease-in-out;
+}
+.search:hover {
+  background-color: linear-gradient(90deg, #32af4f 0%, #eea75c 100%);
+}
+
+.p1 {
+  font-size: 1.5rem;
+}
+
+.about {
+  height: 59.75vh;
+}
+
+.about-title {
+  margin: 4rem 0;
+  font-size: 3rem;
+}
+
+.reset-button {
+  font-weight: 600;
+  font-size: 1.5rem;
+  color: white;
+  padding: 1rem 2rem;
+}
+
+.credits-section {
+  height: 63.6vh;
+  font-size: 2.5rem;
+}
+.credits-section h3 {
+  padding: 3rem 0;
+  font-weight: 700;
+  font-size: 2rem;
+}
+.credits-section b {
+  color: #17e025;
+}
